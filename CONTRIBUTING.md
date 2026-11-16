@@ -61,8 +61,8 @@ the remaining limits on maintenance history.
 
 ## Maintainers
 
-This is currently a solo-maintainer project maintained by Oussama Oulkaid
-(`deleted04user`). Response times for issues and pull requests are best-effort;
+This is currently a solo-maintainer project maintained by elhannak badr.
+Response times for issues and pull requests are best-effort;
 there is no guaranteed response time or staffed support service. Release tags
 identify snapshots, not evidence of long-term maintenance or multiple contributors.
 

@@ -379,10 +379,9 @@ remain visible; they are not suppressed or reported as failures.
 
 The manual real-data integration workflow downloads both official cohorts,
 trains the pipeline and verifies reports/UI consistency. It retains aggregate
-reports only. The initial [test matrix](https://github.com/deleted04user/heart-disease-lab/actions/runs/39279288108),
-[real-data integration](https://github.com/deleted04user/heart-disease-lab/actions/runs/39279123927)
-and [portable verification](https://github.com/deleted04user/heart-disease-lab/actions/runs/39279195691)
-completed successfully. Current run results are in [Actions](https://github.com/deleted04user/heart-disease-lab/actions).
+reports only. The initial test matrix, real-data integration and portable
+verification completed successfully. Current run results are in the repository's
+Actions tab.
 See [engineering verification](reports/engineering_verification.json) and
 [contribution instructions](CONTRIBUTING.md) for the exact checks.
 
@@ -450,4 +449,4 @@ automatically.
 
 ---
 
-[Oussama Oulkaid · GitHub profile](https://github.com/deleted04user) · [Explore the project portfolio](https://github.com/deleted04user/deleted04user/blob/main/PORTFOLIO.md)
+elhannak badr
