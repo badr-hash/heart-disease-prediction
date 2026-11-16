@@ -1,0 +1,123 @@
+{
+  "version": "1.3.0",
+  "recorded_utc": "2026-10-19T20:07:40.504045+00:00",
+  "local_windows": {
+    "status": "passed",
+    "tests_passed": 109,
+    "tests_skipped": 1,
+    "skip_reason": "Report directory symlink creation requires Windows privileges; exercised on Linux CI",
+    "warnings": 6,
+    "warning_scope": "Third-party Seaborn/Matplotlib deprecations",
+    "coverage": {
+      "covered_lines": 1534,
+      "num_statements": 1701,
+      "percent_covered": 87.20144209103199,
+      "percent_covered_display": "87",
+      "missing_lines": 167,
+      "excluded_lines": 0,
+      "percent_statements_covered": 90.1822457378013,
+      "percent_statements_covered_display": "90",
+      "num_branches": 518,
+      "num_partial_branches": 89,
+      "covered_branches": 401,
+      "missing_branches": 117,
+      "percent_branches_covered": 77.41312741312741,
+      "percent_branches_covered_display": "77"
+    }
+  },
+  "lint": "passed",
+  "format": "passed",
+  "mypy_package_files": 18,
+  "distribution_build": "sdist and wheel built successfully",
+  "frozen_experiment": {
+    "status": "passed",
+    "run_id": "27586d03470741438f644f6067b70f22",
+    "model_sha256": "e4b0ba8ab0a23ab81ff1fd53dd03ff326766089a2556bfe3a49fb8e1c5e889c7",
+    "report_count": 32,
+    "legacy_metadata_digest_available": false,
+    "model_unchanged": true
+  },
+  "portable_release": {
+    "sha256": "6add83f97ebed04de3d650f8090671cd83166cbd9ce816895471a2ce6202a9ba",
+    "windows": "passed",
+    "linux": "passed",
+    "example_predictions_identical": true,
+    "github_linux_python": "3.13.16",
+    "github_linux": "passed with identical example probabilities"
+  },
+  "changes": [
+    "Atomic JSON staging and in-process Windows replacement serialization",
+    "Complete experiment inventory and metadata verification before activation",
+    "Offline snapshot verifier without deserialization or source data access",
+    "Reproducible and action-pinned manual workflows"
+  ],
+  "remote_ci": {
+    "conclusion": "success",
+    "headSha": "dd5b096d4c8b8acb1500f674977b8986321c20bf",
+    "status": "completed",
+    "url": "https://github.com/deleted04user/heart-disease-lab/actions/runs/39316346892",
+    "jobs": [
+      {
+        "name": "lint-and-typecheck",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "unit-and-ui (windows-latest, 3.10)",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "unit-and-ui (ubuntu-latest, 3.13)",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "container",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "unit-and-ui (ubuntu-latest, 3.10)",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "unit-and-ui (windows-latest, 3.13)",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote_real_data": {
+    "conclusion": "success",
+    "headSha": "dd5b096d4c8b8acb1500f674977b8986321c20bf",
+    "status": "completed",
+    "url": "https://github.com/deleted04user/heart-disease-lab/actions/runs/39316371449",
+    "jobs": [
+      {
+        "name": "train-and-verify",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote_portable": {
+    "conclusion": "success",
+    "headSha": "dd5b096d4c8b8acb1500f674977b8986321c20bf",
+    "status": "completed",
+    "url": "https://github.com/deleted04user/heart-disease-lab/actions/runs/39316378151",
+    "jobs": [
+      {
+        "name": "clean-linux-portable",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "release": {
+    "url": "https://github.com/deleted04user/heart-disease-lab/releases/tag/v1.3.0",
+    "asset_bytes": 1141662,
+    "asset_digest": "sha256:6add83f97ebed04de3d650f8090671cd83166cbd9ce816895471a2ce6202a9ba"
+  }
+}
